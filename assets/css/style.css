@@ -7,7 +7,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/*  navbar style  */
+/*  navbar section style  */
 .navbar {
     background: #131313;
     height: 80px;
@@ -263,6 +263,7 @@ footer {
     margin-left: 20px;
 }
 
+/*  menu gallery section style  */
 .menu-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -294,4 +295,31 @@ footer {
     font-weight: 600;
     text-align: center;
     color: #131313;
+}
+
+/* contact section styles */
+.contact-details {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 70px;
+    margin: 0 auto;
+    background: burlywood;
+}
+
+.contact-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contact-details li {
+    margin-bottom: 10px;
 }
