@@ -214,3 +214,51 @@ footer {
     flex: 1;
     margin: 10px 0;
 }
+
+/*  about section styles  */
+.about {
+    background-color: #aba6a6;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #aba6a6;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #ae20f0;
+    text-align: center;
+}
+
+.about-content p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #141414;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-img-container {
+    text-align: center;
+}
+
+#about-img {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
