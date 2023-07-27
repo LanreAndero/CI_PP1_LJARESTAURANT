@@ -180,3 +180,37 @@
     width: 120%;
     margin-left: -120px;
 }
+
+/*  footer styles  */
+footer {
+    background-color: #f60909;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    flex: 1;
+}
+
+.social-media a {
+    color: #15de3d;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    color: #3700ff;
+}
+
+.social-media p {
+    flex: 1;
+    margin: 10px 0;
+}
