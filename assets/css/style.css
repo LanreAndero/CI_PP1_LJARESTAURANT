@@ -405,12 +405,14 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 100vh;
+    height: 120vh;
     background-color: #aba6a6;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 60px;
+    position: relative;
+    left: -18px;
 }
 
 .about-content {
@@ -421,6 +423,7 @@ footer {
     font-size: 2.5rem;
     color: #ae20f0;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .about-content p {
@@ -440,6 +443,25 @@ footer {
     height: 100%;
     width: 100%;
     margin-left: 20px;
+    margin-top: 0;
+}
+
+#about-img1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.open-7-days {
+    text-align: center;
+}
+
+.open-7-days p {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3c0b9d;
 }
 
 /* about mobile responsive */
@@ -451,13 +473,16 @@ footer {
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 120vh;
+        height: 190vh;
+        position: relative;
+        right: -18px;
     }
 
-    #about-img {
+    #about-img,
+    #about-img1 {
         height: 100%;
         width: 100%;
-        margin-left: 2px;
+        margin: 0 auto;
     }
 
     .about-content {
@@ -465,10 +490,34 @@ footer {
         margin-bottom: 0;
         font-size: 1;
     }
+
+    .open-7-days {
+        text-align: center;
+    }
+
+    .open-7-days p {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .abut-content h2 {
+    .about-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 90%;
+        margin: 0 auto;
+        height: 190vh;
+    }
+
+    /*.about {
+        margin-left: 50px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /*.abut-content h2 {
         font-size: 2rem;
         margin-top: 3rem;
     }
@@ -477,147 +526,8 @@ footer {
         margin-top: 1.5rem;
         font-size: 1.5rem;
     }
-}
 
-/*  menu gallery section style  */
-.menu-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background: #e0dbdb;
-}
-
-.menu-item {
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.menu-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.menu-item h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.menu-gallery p {
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
-    color: #131313;
-}
-
-/* contact section styles */
-.opening-hours {
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    background: burlywood;
-}
-
-.opening-hours h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-table {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-table th,
-table td {
-    padding: 10px;
-    border: 1px solid #131313;
-}
-
-.contact-details {
-    text-align: center;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 70px;
-    margin: 0 auto;
-    background: burlywood;
-}
-
-.contact-details h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.contact-details ul {
-    list-style-type: none;
-    padding: 0;
-    width: 80%;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.contact-details li {
-    margin-bottom: 10px;
-}
-
-/* booking section styles */
-.booking {
-    width: 500px;
-    padding: 50px;
-    margin: 0 auto;
-    text-align: center;
-    background: #aba6a6;
-}
-
-.booking h2 {
-    font-size: 2rem;
-    color: #3700ff;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin: 20px 0;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-input[type="date"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-textarea {
-    height: 100px;
-}
-
-button[type="submit"] {
-    padding: 10px 20px;
-    font-size: 1.5rem;
-    background-color: #f77062;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #3700ff;
+    .open-7-days p {
+        font-size: 1.5rem;
+    }*/
 }
