@@ -201,13 +201,13 @@ footer {
 }
 
 .social-media a {
-    color: #15de3d;
+    color: #3700ff;
     font-size: 18px;
     margin: 0 10px;
 }
 
 .social-media a:hover {
-    color: #3700ff;
+    color: #15de15;
 }
 
 .social-media p {
