@@ -470,7 +470,7 @@ footer {
         display: grid;
         grid-template-columns: auto;
         align-items: center;
-        justify-self: center;
+        justify-content: center;
         width: 100%;
         margin: 0 auto;
         height: 190vh;
@@ -502,32 +502,59 @@ footer {
 
 @media screen and (max-width: 480px) {
     .about-container {
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 90%;
-        margin: 0 auto;
-        height: 190vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*  menu-gallery section  */
+.menu-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: #e0dbdb;
+}
+
+.menu-item {
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.menu-gallery p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #131313;
+}
+
+/* menu-gallery responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .menu-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
     }
 
-    /*.about {
-        margin-left: 50px;
-        width: 100%;
-        padding: 0 20px;
+    .menu-item h3 {
+        font-size: 16px;
     }
-
-    /*.abut-content h2 {
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .about-content p {
-        margin-top: 1.5rem;
-        font-size: 1.5rem;
-    }
-
-    .open-7-days p {
-        font-size: 1.5rem;
-    }*/
 }
