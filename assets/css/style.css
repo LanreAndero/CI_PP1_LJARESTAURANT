@@ -620,13 +620,13 @@ table td {
     padding: 50px;
     margin: 0 auto;
     text-align: center;
-    background: #aba6a6;
+    background: #746868;
 }
 
 .booking h2 {
     font-size: 2rem;
-    color: #3700ff;
-    margin-bottom: 20px;
+    color: #e15b4c;
+    margin-bottom: 30px;
 }
 
 .form-group {
@@ -643,6 +643,7 @@ input[type="email"],
 input[type="tel"],
 input[type="number"],
 input[type="date"],
+input[type="time"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -667,4 +668,14 @@ button[type="submit"] {
 
 button:hover {
     background: #3700ff;
+}
+
+@media screen and (max-width: 480px) {
+    .booking {
+        max-width: 80%;
+        padding: 50px;
+        margin: 0 auto;
+        text-align: center;
+        background: #746868;
+    }
 }
