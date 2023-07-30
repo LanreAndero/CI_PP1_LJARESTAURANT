@@ -683,10 +683,8 @@ button:hover {
 
 @media screen and (max-width: 480px) {
     .booking {
-        max-width: 80%;
+        margin: 0;
         padding: 50px;
-        margin: 0 auto;
         text-align: center;
-        background: #746868;
     }
 }
