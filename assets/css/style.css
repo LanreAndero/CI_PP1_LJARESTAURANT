@@ -154,12 +154,12 @@
         display: table;
     }
 
-    #mobile-menu {
+    /*#mobile-menu {
         position: absolute;
         top: 20%;
         right: 5%;
-        transition: translate(5%, 20%);
-    }
+        transition-property: translate(5%, 20%);
+    }*/
 
     .navbar-btn {
         padding-bottom: 2rem;
@@ -616,7 +616,6 @@ table td {
 
 /* booking section styles */
 .booking {
-    width: 500px;
     padding: 50px;
     margin: 0 auto;
     text-align: center;
@@ -669,6 +668,18 @@ button[type="submit"] {
 button:hover {
     background: #3700ff;
 }
+
+/*@media screen and (max-width: 780px) {
+    .booking {
+        width: 500px;
+        padding: 50px;
+        margin: 0 auto;
+        text-align: center;
+        background: #746868;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+}*/
 
 @media screen and (max-width: 480px) {
     .booking {
