@@ -474,8 +474,6 @@ footer {
         width: 100%;
         margin: 0 auto;
         height: 190vh;
-        position: relative;
-        right: -18px;
     }
 
     #about-img,
@@ -616,10 +614,10 @@ table td {
 
 /* booking section styles */
 .booking {
-    padding: 50px;
+    padding: 30px 600px;
     margin: 0 auto;
     text-align: center;
-    background: #746868;
+    background: #d6cfcf;
 }
 
 .booking h2 {
@@ -649,6 +647,7 @@ textarea {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: rgba(116, 104, 104, 0.7);
 }
 
 textarea {
@@ -669,22 +668,20 @@ button:hover {
     background: #3700ff;
 }
 
-/*@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     .booking {
-        width: 500px;
-        padding: 50px;
-        margin: 0 auto;
-        text-align: center;
-        background: #746868;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-}*/
-
-@media screen and (max-width: 480px) {
-    .booking {
+        padding: 30px 130px;
         margin: 0;
-        padding: 50px;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .booking {
+        /*padding: 30px 280px;*/
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0;
     }
 }
