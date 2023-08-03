@@ -154,12 +154,12 @@
         display: table;
     }
 
-    /*#mobile-menu {
+    #mobile-menu {
         position: absolute;
         top: 20%;
         right: 5%;
         transition-property: translate(5%, 20%);
-    }*/
+    }
 
     .navbar-btn {
         padding-bottom: 2rem;
@@ -685,15 +685,6 @@ button[type="submit"] {
 button:hover {
     background: #3700ff;
 }
-
-/*@media screen and (max-width: 960px) {
-    .booking {
-        padding: 30px 350px;
-        align-items: center;
-        justify-self: center;
-        margin: 0;
-    }
-}*/
 
 @media screen and (max-width: 768px) {
     .booking {
