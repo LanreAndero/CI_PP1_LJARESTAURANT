@@ -154,13 +154,6 @@
         display: table;
     }
 
-    #mobile-menu {
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        transition-property: translate(5%, 20%);
-    }
-
     .navbar-btn {
         padding-bottom: 2rem;
     }
@@ -505,7 +498,6 @@ footer {
     .about-content {
         text-align: center;
         margin-bottom: 0;
-        font-size: 1;
     }
 
     .open-7-days {
