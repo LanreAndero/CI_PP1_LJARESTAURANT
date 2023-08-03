@@ -212,6 +212,12 @@
     padding-bottom: 70px;
 }
 
+.main-content {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -20px;
+}
+
 .main-content h1 {
     font-size: 2.5rem;
     color: #d91709;
@@ -227,6 +233,7 @@
     font-size: 2rem;
     font-weight: 700;
     color: #141414;
+    margin-bottom: 20px
 }
 
 .main-btn {
@@ -275,9 +282,8 @@
 }
 
 #main-img {
-    height: 120%;
-    width: 120%;
-    margin-left: -120px;
+    height: 100%;
+    width: 100%;
 }
 
 /* main hero mobile responsive */
@@ -300,7 +306,6 @@
 
     .main-content {
         text-align: center;
-        margin-bottom: -6rem;
     }
 
     .main-content h1 {
@@ -310,6 +315,7 @@
 
     .main-content h2 {
         font-size: 1.5rem;
+        margin-top: 1rem;
     }
 
     .main-content p {
@@ -319,9 +325,13 @@
 }
 
 @media screen and (max-width: 480px) {
+    .main-content {
+        text-align: center;
+    }
+
     .main-content h1 {
         font-size: 2rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .main-content h2 {
@@ -329,13 +339,19 @@
     }
 
     .main-content p {
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 2rem;
     }
 
     .main-btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+    }
+
+    #main-img {
+        height: 80%;
+        width: 80%;
+        margin-bottom: 30px;
     }
 }
 
@@ -412,7 +428,7 @@ footer {
     max-width: 1300px;
     padding: 0 60px;
     position: relative;
-    left: -18px;
+    left: -16px;
 }
 
 .about-content {
@@ -429,10 +445,11 @@ footer {
 .about-content p {
     margin-top: 2rem;
     font-size: 1rem;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #141414;
     text-align: center;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 .about-img-container {
@@ -442,14 +459,14 @@ footer {
 #about-img {
     height: 100%;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 2px;
     margin-top: 0;
 }
 
 #about-img1 {
     height: 100%;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 2px;
     margin-bottom: 50px;
 }
 
@@ -462,6 +479,7 @@ footer {
     font-size: 2rem;
     font-weight: 600;
     color: #3c0b9d;
+    margin-bottom: 30px;
 }
 
 /* about mobile responsive */
@@ -474,6 +492,7 @@ footer {
         width: 100%;
         margin: 0 auto;
         height: 190vh;
+        margin-left: 18px;
     }
 
     #about-img,
@@ -500,8 +519,7 @@ footer {
 
 @media screen and (max-width: 480px) {
     .about-container {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 18px;
     }
 }
 
@@ -614,7 +632,7 @@ table td {
 
 /* booking section styles */
 .booking {
-    padding: 30px 600px;
+    padding: 30px 30px;
     margin: 0 auto;
     text-align: center;
     background: #d6cfcf;
@@ -642,7 +660,7 @@ input[type="number"],
 input[type="date"],
 input[type="time"],
 textarea {
-    width: 100%;
+    width: 500px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -668,20 +686,59 @@ button:hover {
     background: #3700ff;
 }
 
+/*@media screen and (max-width: 960px) {
+    .booking {
+        padding: 30px 350px;
+        align-items: center;
+        justify-self: center;
+        margin: 0;
+    }
+}*/
+
 @media screen and (max-width: 768px) {
     .booking {
-        padding: 30px 130px;
+        padding: 30px 30px;
+        align-items: center;
+        justify-self: center;
         margin: 0;
-        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    textarea {
+        width: 350px;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(116, 104, 104, 0.7);
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 480px) {
     .booking {
-        /*padding: 30px 280px;*/
+        padding: 30px 30px;
         align-items: center;
         justify-self: center;
-        width: 100%;
         margin: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    textarea {
+        width: 200px;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(116, 104, 104, 0.7);
     }
 }
