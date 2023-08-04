@@ -504,7 +504,6 @@ footer {
 
     .about-content {
         text-align: center;
-        margin-bottom: 0;
     }
 
     .open-7-days {
@@ -519,6 +518,48 @@ footer {
 @media screen and (max-width: 480px) {
     .about-container {
         margin-left: 18px;
+        height: 100%;
+    }
+
+    .about-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .about-content p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .main-btn {
+        padding: 12px 30px;
+        margin: 2.5rem 0;
+    }
+
+    .about-img-container {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .open-7-days p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    .open-7-days .main-btn {
+        padding: 12px 30px;
+        margin: 2.5rem 0;
+        margin-top: 0;
+        font-size: 1rem;
     }
 }
 
