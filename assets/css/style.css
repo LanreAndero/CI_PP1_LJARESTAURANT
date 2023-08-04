@@ -541,25 +541,20 @@ footer {
     }
 
     .main-btn {
-        padding: 12px 30px;
+        padding: 10px 16px;
         margin: 2.5rem 0;
+        font-size: 0.7rem;
     }
 
     .about-img-container {
         text-align: center;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
 
     .open-7-days p {
         font-size: 1.2rem;
-        margin-bottom: 30px;
-    }
-
-    .open-7-days .main-btn {
-        padding: 12px 30px;
-        margin: 2.5rem 0;
-        margin-top: 0;
-        font-size: 1rem;
+        margin-bottom: 20px;
     }
 }
 
