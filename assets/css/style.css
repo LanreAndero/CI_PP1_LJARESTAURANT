@@ -319,6 +319,11 @@
 }
 
 @media screen and (max-width: 480px) {
+    .main-img-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .main-content {
         text-align: center;
         margin: 0;
@@ -326,7 +331,7 @@
 
     .main-content h1 {
         font-size: 2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .main-content h2 {
