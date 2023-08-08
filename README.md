@@ -4,9 +4,9 @@ This project is a gateway to the vibrant flavors of Nigeria. The restaurant is l
 
 ![Responsive image](./assets/images/ljarestaurantwebsite.png)
 
-![amiresponsive](https://ui.dev/amiresponsive?url=https://lanreandero.github.io/CI_PP1_LJARESTAURANT/)
+[amiresponsive](https://ui.dev/amiresponsive?url=https://lanreandero.github.io/CI_PP1_LJARESTAURANT/)
 
-![View LJA Restaurant on Github pages](https://lanreandero.github.io/CI_PP1_LJARESTAURANT/).
+[View LJA Restaurant on Github pages](https://lanreandero.github.io/CI_PP1_LJARESTAURANT/).
 
 ---
 
@@ -126,7 +126,7 @@ Use Cases:
 
 In conclusion, the 'Kumbh Sans' font-family stands out as a versatile and elegant choice for a wide range of design projects. Its clean lines, balanced proportions, and extensive font weights make it a reliable companion for any typographic endeavor, infusing sophistication and clarity into your designs.
 
-![Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
 ### Imagery
 
@@ -214,13 +214,13 @@ Font Awesome - For the iconography of social media links on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-![Tiny PNG](https://tinypng.com/) To compress images.
+[Tiny PNG](https://tinypng.com/) To compress images.
 
-![Birme](https://www.birme.net/) To resize images and change to webp format.
+[Birme](https://www.birme.net/) To resize images and change to webp format.
 
-![Favicon.io](https://favicon.io/) To create favicon.
+[Favicon.io](https://favicon.io/) To create favicon.
 
-![Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 
 ## Deployment
 
@@ -266,7 +266,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 ### Code Used
 
-![Brian Design](https://www.youtube.com/watch?v=FazgJVnrVuI&t=1507s) for his tutorials on Navbar Menu Toggle and codes including Javascript
+[Brian Design](https://www.youtube.com/watch?v=FazgJVnrVuI&t=1507s) for his tutorials on Navbar Menu Toggle and codes including Javascript
 
 Credit to Love Running Walkthrough Project in Code Institute Module for the great insight in getting this project through.
 
