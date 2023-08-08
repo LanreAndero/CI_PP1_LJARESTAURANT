@@ -30,6 +30,7 @@ This project is a gateway to the vibrant flavors of Nigeria. The restaurant is l
   - [Testing](#testing)
     - [W3C Validator](#w3c-validator)
     - [Lighthouse](#lighthouse)
+    - [Known Bugs](#known-bugs)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -261,6 +262,14 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 ![Contact Page Desktop](./docs/testing/lighthouse/lighthouse-contact-page-desktop.png)
 ![Booking Page Mobile](./docs/testing/lighthouse/lighthouse-booking-page-mobile.png)
 ![Booking Page Mobile](./docs/testing/lighthouse/lighthouse-booking-page-desktop.png)
+
+### Known Bugs
+
+Users are able to submit completed forms but the formdump from code institute caused 7 cookies and 1 request unresolved errors in dev tools. Solution is beyond the scope of this project. Also a content script error is caused by this formdump.
+
+![Content Script Error](./docs/testing/known-bugs/content-script-error.png)
+![Formdump Server Error](./docs/testing/known-bugs/formdump-error.png)
+![Booking Form Submission](./docs/testing/known-bugs/booking-submission.png)
 
 ## Credits
 
